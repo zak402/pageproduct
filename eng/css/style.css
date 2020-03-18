@@ -271,6 +271,9 @@
 .services_eng .services-header{
     text-align:left;
 }
+.services_eng .services-header .services-content h4{
+    font-size:16px;
+}
 .services_eng .services-header img{
     width:60px;
 }
