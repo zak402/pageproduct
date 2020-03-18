@@ -91,8 +91,8 @@ var x = setInterval(function() {
     
   // Output the result in an element with id="demo"
  
-  document.getElementById("timer_ar").innerHTML = "<span class='days text-center'>"+days+'<p>???</p>'+"</span>"+ "<span class='hours text-center'>"+hours+'<p>????</p>'+"</span>"+
-  "<span class='minutes text-center'>"+minutes+'<p>?????</p>'+"</span>"+"<span class='seconds text-center'>"+seconds+'<p>?????</p>'+"</span>";
+  document.getElementById("timer_ar").innerHTML = "<span class='days text-center'>"+days+'<p>ايام</p>'+"</span>"+ "<span class='hours text-center'>"+hours+'<p>ساعة</p>'+"</span>"+
+  "<span class='minutes text-center'>"+minutes+'<p>دقيقة</p>'+"</span>"+"<span class='seconds text-center'>"+seconds+'<p>ثواني</p>'+"</span>";
 
   // If the count down is over, write some text 
   if (distance < 0) {
